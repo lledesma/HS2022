@@ -3,7 +3,7 @@ Imports System.Data.DataRow
 Public Class WB_Consultas
     Inherits Capa_Datos.Conexion
 
-
+''###########18:58
     Public Function CargasClientesDesdeHasta(ByVal Desde As String, ByVal Hasta As String, ByVal Codigos As String, ByVal Fecha As String) As DataTable
         Try
             dbconn.Open()
